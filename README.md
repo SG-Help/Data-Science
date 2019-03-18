@@ -279,13 +279,12 @@ f <- table(data_for_test$bad_good, data_for_test$pred, dnn = c("Actual","Predict
 
 f
 
-      Predicted
-      
-Actual	no	yes
+      		Predicted 
+Actual		no		yes
 
-  0	73	5
+  	0	73		5
   
-  1	8	15
+  	1	8		15
 
 结果显示，模型的准确率为87.1%【(73+15)/(73+15+5+8)】，效果较好。
 
