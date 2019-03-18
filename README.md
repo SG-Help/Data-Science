@@ -38,10 +38,8 @@ myFiles <- list.files(getwd(), pattern = ".csv")
 
 naFile <- NULL
 
-for(file in myFiles)
+for(file in myFiles){
 
-    {
-    
         perpos <- which(strsplit(file, "")[[1]]==".")
 	
         cleanName <- gsub(" ","",substr(file, 1, perpos-1))
